@@ -41,7 +41,7 @@ tags: [VLA, 论文, 精读]
 ### 列出所有待读论文
 ```dataview
 TABLE year, tags
-FROM "04-论文精读"
+FROM "02-VLA" OR "03-Affordance" OR "04-Grasp"
 WHERE contains(tags, "待读")
 SORT year DESC
 ```
@@ -57,7 +57,7 @@ LIMIT 10
 ### 列出所有实验任务
 ```dataview
 TASK
-FROM "05-项目实验"
+FROM "02-VLA" OR "03-Affordance" OR "04-Grasp"
 WHERE !completed
 ```
 
