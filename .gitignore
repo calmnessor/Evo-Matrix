@@ -1,0 +1,22 @@
+# Obsidian personal workspace (changes constantly, don't track)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/appearance.json
+.obsidian/app.json
+
+# Obsidian cache
+.obsidian/cache/
+.obsidian/hotkey.json
+.obsidian/community-plugins.json
+
+# Trash
+.Trash-*/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*~
