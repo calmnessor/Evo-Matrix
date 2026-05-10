@@ -72,11 +72,20 @@ Evo-Matrix/
 
 ## 贡献者
 
-| 贡献者 | GitHub | 角色 | 贡献内容 |
-|--------|--------|------|----------|
-| calmnessor | [@calmnessor](https://github.com/calmnessor) | 仓库维护者 | 知识库架构设计、VLA 学习路线、核心笔记 |
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/calmnessor">
+        <img src="https://github.com/calmnessor.png" width="80px" style="border-radius:50%" alt="calmnessor"/><br />
+        <sub><b>calmnessor</b></sub>
+      </a><br />
+      <sub>仓库维护者</sub><br />
+      <sub>知识库架构 · VLA 学习路线 · 核心笔记</sub>
+    </td>
+  </tr>
+</table>
 
-> 课题组成员可通过 PR 将自己的名字添加到贡献者列表。
+> 课题组成员可通过 PR 将自己的头像和名字添加到上方贡献者表格。
 
 ## 许可
 
