@@ -1,0 +1,54 @@
+# Evo-Matrix 具身智能知识库专用配置
+vault_path: "E:/Obsidian/Evo-Matrix"
+
+research_domains:
+  - name: "VLA_Embodied"
+    arxiv_categories: ["cs.RO", "cs.AI", "cs.LG", "cs.CV"]
+    keywords:
+      - "Vision-Language-Action"
+      - "Vision Language Action"
+      - "VLA model"
+      - "embodied VLA"
+      - "robotic VLA"
+      - "VLA for robotics"
+      - "RT-2"
+      - "PaLM-E"
+      - "embodied vision-language-action"
+
+  - name: "Grasp_Task"
+    arxiv_categories: ["cs.RO", "cs.CV"]
+    keywords:
+      - "robotic grasping"
+      - "dexterous grasping"
+      - "task-oriented grasping"
+      - "task-specific grasping"
+      - "grasp synthesis"
+      - "dexterous manipulation"
+      - "in-hand manipulation"
+      - "language-guided grasping"
+
+  - name: "Affordance_Prediction"
+    arxiv_categories: ["cs.RO", "cs.CV"]
+    keywords:
+      - "affordance prediction"
+      - "affordance learning"
+      - "visual affordance"
+      - "3D affordance"
+      - "affordance grounding"
+      - "task-oriented affordance"
+      - "embodied affordance"
+      - "affordance field"
+      - "Scene-MMKG"
+      - "ManipMob-MMKG"
+
+# 严格排除无关方向
+exclude_keywords:
+  - "medical"
+  - "autonomous driving"
+  - "self-driving"
+  - "domain generalization"
+  - "distribution shift"
+  - "Bayesian inference"
+  - "adversarial defense"
+
+daily_recommend: 8

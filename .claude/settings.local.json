@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(export OBSIDIAN_VAULT_PATH=\"E:/Obsidian/Evo-Matrix\")",
+      "Skill(extract-paper-images)"
+    ]
+  }
+}
