@@ -2,6 +2,16 @@
 
 > 一个基于 [Obsidian](https://obsidian.md) 的结构化知识库，服务于具身智能/VLA（Vision-Language-Action）方向的课题组协作学习与科研追踪。
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Obsidian-483699?style=for-the-badge&logo=Obsidian&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=HuggingFace&logoColor=black" />
+  <img src="https://img.shields.io/badge/MuJoCo-00599C?style=for-the-badge&logo=ROS&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=Markdown&logoColor=white" />
+</p>
+
 ## 这是什么？
 
 Evo-Matrix 是课题组共享的"第二大脑"——用双向链接和知识图谱组织具身智能领域的理论知识、论文笔记、实验记录和科研工具。新人可以按学习路线图快速入门，进行中课题的研究员可以追踪论文、记录实验、建立知识之间的交叉链接。
@@ -77,6 +87,12 @@ Evo-Matrix/
 </a>
 
 > 只要向本仓库提交过 Commit，你的头像就会自动出现在上方贡献者墙中。
+
+## 项目统计
+
+![](https://visitor-badge.laobi.icu/badge?page_id=calmnessor.Evo-Matrix)
+
+[![Star History Chart](https://api.star-history.com/svg?repos=calmnessor/Evo-Matrix&type=Date)](https://star-history.com/#calmnessor/Evo-Matrix&Date)
 
 ## 许可
 
