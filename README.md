@@ -70,6 +70,14 @@ Evo-Matrix/
 | Excalidraw | 画架构图/思维导图 |
 | Zotero Integration | 从 Zotero 直接导入论文 |
 
+## 贡献者
+
+| 贡献者 | GitHub | 角色 | 贡献内容 |
+|--------|--------|------|----------|
+| calmnessor | [@calmnessor](https://github.com/calmnessor) | 仓库维护者 | 知识库架构设计、VLA 学习路线、核心笔记 |
+
+> 课题组成员可通过 PR 将自己的名字添加到贡献者列表。
+
 ## 许可
 
 本知识库内容仅供课题组内部及学术用途。论文笔记和知识整理遵循原始论文的许可。
