@@ -72,20 +72,11 @@ Evo-Matrix/
 
 ## 贡献者
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/calmnessor">
-        <img src="https://github.com/calmnessor.png" width="80px" style="border-radius:50%" alt="calmnessor"/><br />
-        <sub><b>calmnessor</b></sub>
-      </a><br />
-      <sub>仓库维护者</sub><br />
-      <sub>知识库架构 · VLA 学习路线 · 核心笔记</sub>
-    </td>
-  </tr>
-</table>
+<a href="https://github.com/calmnessor/Evo-Matrix/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=calmnessor/Evo-Matrix" />
+</a>
 
-> 课题组成员可通过 PR 将自己的头像和名字添加到上方贡献者表格。
+> 只要向本仓库提交过 Commit，你的头像就会自动出现在上方贡献者墙中。
 
 ## 许可
 
