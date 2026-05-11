@@ -3,13 +3,13 @@
 > 一个基于 [Obsidian](https://obsidian.md) 的结构化知识库，服务于具身智能三个研究方向（VLA / Affordance 预测 / Grasp）的课题组协作学习与科研追踪。
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Obsidian-483699?style=for-the-badge&logo=Obsidian&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=HuggingFace&logoColor=black" />
-  <img src="https://img.shields.io/badge/MuJoCo-00599C?style=for-the-badge&logo=ROS&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=Markdown&logoColor=white" />
+  <img src="https://img.shields.io/badge/具身智能-Embodied_AI-2563EB?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/VLA-Vision_Language_Action-F59E0B?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Grasp-Robotic_Grasping-16A34A?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Affordance-Affordance_Prediction-8B5CF6?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Sim2Real-Sim_to_Real-0D9488?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Manipulation-Dexterous_Manipulation-DC2626?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/RL-Robot_Learning-7C3AED?style=for-the-badge" />
 </p>
 
 ## 这是什么？
