@@ -97,7 +97,7 @@ Evo-Matrix/
 
 ## 项目统计
 
-![visitors](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fcalmnessor%2FEvo-Matrix&count_bg=%2379C83D&title_bg=%23555555&icon=github.svg&icon_color=%23FFFFFF&title=visitors&edge_flat=false)
+![visitors](https://komarev.com/ghpvc/?username=calmnessor&repo=Evo-Matrix&color=79C83D&style=flat)
 
 [![Star History Chart](https://api.star-history.com/svg?repos=calmnessor/Evo-Matrix&type=Date)](https://star-history.com/#calmnessor/Evo-Matrix&Date)
 
