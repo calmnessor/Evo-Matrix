@@ -1,0 +1,26 @@
+{
+  "nodes": {
+    "pi0_2410.24164": {
+      "id": "pi0_2410.24164",
+      "title": "π₀: A Vision-Language-Action Flow Model for General Robot Control",
+      "arxiv_id": "2410.24164",
+      "domain": "VLA_Embodied",
+      "quality_score": 9.0,
+      "tags": ["VLA", "Robot-Foundation-Model", "Flow-Matching", "Cross-Embodiment", "Dexterous-Manipulation", "Action-Expert", "Pre-training-Post-training"],
+      "analyzed": true,
+      "note_path": "20_Research/Papers/VLA_Embodied/pi0_Vision-Language-Action_Flow_Model/pi0_Vision-Language-Action_Flow_Model.md",
+      "year": 2024
+    }
+  },
+  "edges": [
+    {"source": "pi0_2410.24164", "target": "rt2", "type": "improves", "weight": 0.8},
+    {"source": "pi0_2410.24164", "target": "openvla", "type": "improves", "weight": 0.7},
+    {"source": "pi0_2410.24164", "target": "octo", "type": "improves", "weight": 0.6},
+    {"source": "pi0_2410.24164", "target": "diffusion_policy", "type": "extends", "weight": 0.7},
+    {"source": "pi0_2410.24164", "target": "act_aloha", "type": "compares", "weight": 0.6},
+    {"source": "pi0_2410.24164", "target": "paligemma", "type": "extends", "weight": 0.8},
+    {"source": "pi0_2410.24164", "target": "transfusion", "type": "extends", "weight": 0.7},
+    {"source": "pi0_2410.24164", "target": "oxe", "type": "uses", "weight": 0.5}
+  ],
+  "last_updated": "2026-05-11"
+}

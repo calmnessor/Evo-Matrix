@@ -2,7 +2,14 @@
   "permissions": {
     "allow": [
       "Bash(export OBSIDIAN_VAULT_PATH=\"E:/Obsidian/Evo-Matrix\")",
-      "Skill(extract-paper-images)"
+      "Skill(extract-paper-images)",
+      "Skill(paper-analyze)",
+      "WebFetch(domain:arxiv.org)",
+      "Bash(curl -s \"https://export.arxiv.org/api/query?id_list=2410.24164\")",
+      "Bash(curl -s -L -o /tmp/pi0_paper.pdf \"https://arxiv.org/pdf/2410.24164.pdf\")",
+      "Read(//tmp/**)",
+      "Bash(python3 \".agents/skills/deeppapernote/scripts/check_environment.py\")",
+      "Bash(python3 \".agents/skills/deeppapernote/scripts/create_input_record.py\" --help)"
     ]
   }
 }
