@@ -66,8 +66,9 @@ Affordance 告诉 VLA "哪里能抓"，Grasp 执行"怎么抓"
 | 论文 | 年份 | 贡献 | 笔记 |
 |------|------|------|------|
 | Dex-Net 4.0 | 2020 | 大规模抓取数据集 | [[]] |
-| GraspNet-1B | 2020 | 10 亿抓取标注 | [[]] |
-| AnyGrasp | 2023 | 通用 7-DoF 抓取 | [[]] |
+| GraspNet-1B | 2020 | 10 亿抓取标注 | [[论文精读/GraspNet/GraspNet\|笔记]] |
+| AnyGrasp | 2023 | 通用 7-DoF 抓取 | [[论文精读/AnyGrasp/AnyGrasp\|笔记]] |
+| Grasp-Anything | 2024 | 基础模型合成抓取数据 | [[论文精读/Grasp-Anything/Grasp-Anything\|笔记]] |
 | InstructGrasp | 2024 | 语言引导抓取 | [[]] |
 
 ## 论文精读

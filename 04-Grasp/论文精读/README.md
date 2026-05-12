@@ -6,9 +6,10 @@
 
 | 论文 | 年份 | 状态 | 笔记 |
 |------|------|------|------|
+| GraspNet-1Billion | CVPR 2020 | ✅ 已读 | [[GraspNet/GraspNet\|GraspNet-1Billion]] |
+| AnyGrasp | T-RO 2023 | ✅ 已读 | [[AnyGrasp/AnyGrasp\|AnyGrasp]] |
+| Grasp-Anything | ICRA 2024 | ✅ 已读 | [[Grasp-Anything/Grasp-Anything\|Grasp-Anything]] |
 | Dex-Net 4.0 | 2020 | 待读 | [[]] |
-| GraspNet-1Billion | 2020 | 待读 | [[]] |
-| AnyGrasp | 2023 | 待读 | [[]] |
 | InstructGrasp | 2024 | 待读 | [[]] |
 | GraspGPT | 2024 | 待读 | [[]] |
 
