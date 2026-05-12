@@ -125,4 +125,5 @@ def format_vla_sample(sample):
 
 - [[LoRA与参数高效微调]] — LoRA/QLoRA 原理和各种方法的对比
 - [[大语言模型与微调]] — LLM 基础概念
+- [[LoRA微调实战/Chat-嬛嬛/readme|Chat-嬛嬛 微调实战]] — 完整 LoRA 微调案例：数据提取→训练→推理
 - [[../深度学习基础/PyTorch实战|PyTorch实战]] — 训练循环基础
