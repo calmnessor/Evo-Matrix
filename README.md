@@ -1,12 +1,14 @@
 # Evo-Matrix — 具身智能课题组知识库
 
-> 一个基于 [Obsidian](https://obsidian.md) 的结构化知识库，服务于具身智能三个研究方向（VLA / Affordance 预测 / Grasp）的课题组协作学习与科研追踪。
+> 一个基于 [Obsidian](https://obsidian.md) 的结构化知识库，服务于具身智能五个研究方向（VLA / Affordance 预测 / Grasp / 生成式模型 / 世界模型）的课题组协作学习与科研追踪。
 
 <p align="center">
   <img src="https://img.shields.io/badge/具身智能-Embodied_AI-2563EB?style=for-the-badge" />
   <img src="https://img.shields.io/badge/VLA-Vision_Language_Action-F59E0B?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Grasp-Robotic_Grasping-16A34A?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Affordance-Affordance_Prediction-8B5CF6?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/3D-3D_Reconstruction_&_Generation-EC4899?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/World_Model-World_Model-6366F1?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Sim2Real-Sim_to_Real-0D9488?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Manipulation-Dexterous_Manipulation-DC2626?style=for-the-badge" />
   <img src="https://img.shields.io/badge/RL-Robot_Learning-7C3AED?style=for-the-badge" />
@@ -16,13 +18,15 @@
 
 Evo-Matrix 是课题组共享的"第二大脑"——用双向链接和知识图谱组织具身智能领域的理论知识、论文笔记、实验记录和科研工具。新人可以按学习路线图快速入门，进行中课题的研究员可以追踪论文、记录实验、建立知识之间的交叉链接。
 
-## 三大研究方向
+## 五大研究方向
 
 | 方向 | 简介 | 入口 |
 |------|------|------|
 | 🤖 **VLA** | Vision-Language-Action：端到端感知-决策-控制 | [`02-VLA/📌-VLA总览.md`](02-VLA/📌-VLA总览.md) |
 | 🎯 **Affordance 预测** | 理解物体"能用来做什么"——动作可能性 | [`03-Affordance/📌-Affordance总览.md`](03-Affordance/📌-Affordance总览.md) |
 | ✋ **Grasp** | 让机器人"拿得起、握得稳" | [`04-Grasp/📌-Grasp总览.md`](04-Grasp/📌-Grasp总览.md) |
+| 🧊 **生成式模型** | 3D 重建与生成：从视觉观测到三维世界理解 | [`05-生成式模型/📌-生成式模型总览.md`](05-生成式模型/📌-生成式模型总览.md) |
+| 🧠 **世界模型** | 学习环境的内部表征，预测未来状态 | [`06-世界模型/世界模型方向综述.md`](06-世界模型/世界模型方向综述.md) |
 
 ## 快速开始
 
@@ -42,12 +46,18 @@ git clone https://github.com/calmnessor/Evo-Matrix.git
 ```
 Evo-Matrix/
 ├── 00-入口/               ← 全局 MOC、新人指南、学习路线、论文/实验总索引
-├── 01-基础理论/            ← 深度学习、Transformer、CV、LLM、运动学、RL、3D 视觉（三方向共享）
-├── 02-VLA/                ← VLA 方向：模型架构、论文精读、模型复现、实验项目、成员笔记
-├── 03-Affordance/         ← Affordance 方向：方法理论、论文精读、实验项目、成员笔记
-├── 04-Grasp/              ← Grasp 方向：抓取方法、论文精读、实验项目、成员笔记
-├── 05-仿真与工具/          ← MuJoCo、HuggingFace、Blender、数据集索引
-├── 06-科研工具/            ← Claude Code、LaTeX、Git、Python 环境、文献检索
+├── 01-基础理论/            ← 深度学习、Transformer、CV、LLM、运动学、RL、3D 视觉（五方向共享）
+├── 02-VLA/                ← VLA 方向：π 系列、分层 VLA、模型复现、实验项目
+├── 03-Affordance/         ← Affordance 方向：方法理论、论文精读、实验项目
+├── 04-Grasp/              ← Grasp 方向：抓取方法、论文精读、实验项目
+├── 05-生成式模型/          ← 3D 重建与生成：VGGT、MVGGT、技术路线综述
+├── 06-世界模型/            ← 世界模型方向综述与论文追踪
+├── 07-真机部署/            ← 硬件选型、传感器标定、模型推理优化、安全机制
+├── 08-仿真与工具/          ← MuJoCo、Isaac Sim、HuggingFace、Blender、数据集索引
+├── 09-科研工具/            ← Claude Code、LaTeX、Git、Python 环境、文献检索
+├── 10_Daily/              ← 每日论文推荐
+├── 20_Research/           ← PaperGraph 知识图谱与论文结构化存储
+├── 99_System/             ← 系统配置与自动化
 └── templates/             ← 论文笔记、实验记录、费曼笔记模板
 ```
 
@@ -64,7 +74,7 @@ Evo-Matrix/
 
 ## 核心特性
 
-- **三方向并行**: VLA / Affordance / Grasp 各有独立空间，通过双向链接交叉关联
+- **五方向并行**: VLA / Affordance / Grasp / 生成式模型 / 世界模型 各有独立空间，通过双向链接交叉关联
 - **MOC（内容地图）**: 每个目录的索引页作为该方向的导航入口
 - **双向链接**: 知识节点之间通过 `[[wiki-link]]` 互相连接，形成可跳转的知识图谱
 - **学习路线**: 14 天速通 + 30 天深入，从零基础到能独立部署和微调 VLA 模型
