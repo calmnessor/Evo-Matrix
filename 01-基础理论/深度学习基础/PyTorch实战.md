@@ -2,7 +2,9 @@
 
 > 从零搭建一个 VLA 风格策略网络的训练循环。
 
+
 ---
+可以看B站小土堆的教程：https://www.bilibili.com/video/BV1hE411t7RN/?spm_id_from=333.337.search-card.all.click
 
 ## 完整训练循环
 
