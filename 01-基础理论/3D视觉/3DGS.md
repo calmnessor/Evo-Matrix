@@ -31,20 +31,16 @@
 | **球谐系数 SH (颜色)** | 48 | 模拟光线反射（从不同角度看，颜色不一样）。4阶×3通道=48。 |
 | *(组内魔改扩展)* **语义特征 $F$** | $D$ | （例如 DINOv2/CLIP 的高维特征）。这是实现语言引导 Affordance 的灵魂！ |
 
-### 🛠️ 互动探索：理解高斯球的参数形变
+### 🛠️ 直观理解：高斯球的参数形变
 
-为了让你直观感受 $\mu, \Sigma, \alpha$ 是如何控制 3D 高斯球的，我为你生成了一个交互式模拟器。试着拖动滑块，看看协方差矩阵（缩放与旋转）是如何把一个完美的圆球变成"面条"或"大饼"的。
+想象你手里有一团半透明的彩色橡皮泥：
 
-<GenerateWidget component_placeholder_id="GenerateWidget_c_4abb7f2ec5c3037e_r_bf77d72c3f5d3c96_0" height="700px">
-```json
-{
-  "widgetSpec": {
-    "height": "700px",
-    "prompt": "Objective: Create an interactive 3D viewer demonstrating the parameters of a single 3D Gaussian splat.\nData State: Initial Values: Scale X=1, Scale Y=1, Scale Z=1, Rotation X=0, Rotation Y=0, Rotation Z=0, Opacity=0.8.\nStrategy: Standard Layout.\nInputs: Sliders for 'X轴缩放 (Scale X)' (0.1 to 3.0), 'Y轴缩放 (Scale Y)' (0.1 to 3.0), 'Z轴缩放 (Scale Z)' (0.1 to 3.0), 'X轴旋转 (Rotation X)' (0 to 360), 'Y轴旋转 (Rotation Y)' (0 to 360), 'Z轴旋转 (Rotation Z)' (0 to 360), and '透明度 (Opacity)' (0.1 to 1.0).\nBehavior: Display a 3D scene (using Three.js logic) with a grid helper. In the center, render a semi-transparent, glowing colored ellipsoid representing the 3D Gaussian. As the user adjusts the sliders, the ellipsoid must dynamically scale, rotate, and change opacity in real-time to visually explain the covariance and opacity parameters of 3DGS. All UI labels and text must be in Chinese."
-  }
-}
-```
-</GenerateWidget>
+- **缩放 (Scale)**：沿 X/Y/Z 轴拉伸或压扁 → 把圆球变成"面条"（拉长 Z）或"大饼"（压扁 Z、拉大 XY）
+- **旋转 (Rotation)**：让椭球在空间中任意朝向 → 对齐物体表面的倾斜方向
+- **透明度 (Opacity)**：控制高斯球对最终渲染的贡献 → α 接近 0 的高斯球会被自动剪枝移除
+
+> [!tip] 动手试试
+> 用 Python 跑一遍 `gsplat` 的官方 demo，在 Viewer 中观察高斯球如何从初始稀疏点云逐渐"繁殖"覆盖整个场景——这是理解 3DGS 最快的方式。
 
 ---
 
