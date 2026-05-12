@@ -101,17 +101,7 @@ Block(x):
 | **Layer Normalization** | 稳定每层的输入分布 | 训练不稳定，loss 震荡 |
 | **Position Encoding** | 注入位置信息（Transformer 本身看不到顺序） | "A 打 B"和"B 打 A"变成同一句话 |
 
-### 2.3 位置编码
-
-**Sinusoidal (原始论文)**：
-$$PE_{(pos, 2i)} = \sin\left(\frac{pos}{10000^{2i/d_{model}}}\right)$$
-$$PE_{(pos, 2i+1)} = \cos\left(\frac{pos}{10000^{2i/d_{model}}}\right)$$
-
-优点：可以外推到训练时没见过的长度。
-
-**Learnable (BERT/GPT/LLaMA)**：把位置当可学习参数。更灵活但无法外推长度。现代 LLM 多用 RoPE (旋转位置编码)，通过旋转操作让 attention 分数自然包含相对位置信息。
-
-### 2.4 三种 Transformer 变体
+### 2.3 三种 Transformer 变体
 
 | 类型 | 代表 | Attention 模式 | 用途 |
 |------|------|---------------|------|
@@ -174,61 +164,7 @@ print(f"输入: {x.shape} → 输出: {output.shape}")  # [2, 64, 512]
 
 ---
 
-## 4. Cross-Attention：多模态融合的核心
-
-在 VLA 中，视觉特征和语言特征需要"交流"。**Cross-Attention** 就是桥梁。
-
-```python
-# Self-Attention: Q, K, V 来自同一来源
-self_attn = Attention(Q=x, K=x, V=x)
-
-# Cross-Attention: Q 来自一个模态，K/V 来自另一个模态
-cross_attn = Attention(Q=visual_features,  # "用视觉提问"
-                       K=text_features,    # "去语言中找答案"  
-                       V=text_features)
-```
-
-**在 VLA 中的实际使用**：
-- RT-1: TokenLearner + Cross-Attention 压缩视觉 token
-- ACT: Encoder-Decoder，Decoder 用 Cross-Attention 看 Encoder 的视觉+状态特征
-- Flamingo/OpenFlamingo: 在 LLM 层间插入 Cross-Attention gate
-
----
-
-## 5. Transformer 在 VLA 中的实际应用
-
-```
-RT-1 (Google, 2022):
-  图像序列 → CNN → TokenLearner (压缩 486→8 token)
-  8 visual tokens + 动作历史 → Transformer Encoder → 离散化动作
-  
-  关键创新: TokenLearner 大幅压缩 token 数量
-
-RT-2 (Google, 2023):
-  图像 → ViT → visual tokens
-  文本 → LLM Tokenizer → text tokens
-  concat → PaLI-X/PaLM-E Decoder → 自回归生成动作 token
-  
-  关键创新: 动作离散化为 token，与文本 token 共存
-
-OpenVLA (Stanford, 2024):
-  图像 → SigLIP → visual tokens [B, 256, 1152]
-  投影层压缩: [B, 256, 1152] → [B, 256, 4096]
-  文本 → LLaMA Embedding → [B, L, 4096]
-  concat → LLaMA Decoder → 离散动作 bin
-  
-  关键创新: 开源 + LoRA 轻量适配
-
-ACT (模仿学习经典):
-  图像 + 关节角 → Encoder(压缩为 latent z)
-  z + 当前关节角 → Decoder(Cross-Attn) → 动作序列 (Chunk)
-  
-  关键创新: 用 Transformer 做条件 VAE，一次输出多个未来动作
-```
-
----
-
-## 6. 视觉 Transformer 变体概览
+## 4. 视觉 Transformer 变体概览
 
 | 模型 | 年份 | 核心创新 | VLA 使用情况 |
 |------|------|---------|------------|
@@ -240,7 +176,7 @@ ACT (模仿学习经典):
 
 ---
 
-## 7. 新手学习路线
+## 5. 新手学习路线
 
 ### 第一阶段：理解 attention 本质 (1-2 天)
 1. 读懂上面 Self-Attention 的代码实现，一行一行手写在纸上
@@ -259,7 +195,7 @@ ACT (模仿学习经典):
 
 ---
 
-## 8. 推荐论文与资源
+## 6. 推荐论文与资源
 
 ### 必读论文
 
@@ -280,7 +216,7 @@ ACT (模仿学习经典):
 
 ---
 
-## 9. 自检问题
+## 7. 自检问题
 
 ### 基础关
 - [ ] 我能手写 Self-Attention 的前向传播（伪代码即可）
@@ -305,8 +241,9 @@ ACT (模仿学习经典):
 ---
 
 ## 关联笔记
-- [[深度学习基础]] — 反向传播、梯度下降等 Transformer 训练基础
-- [[大语言模型与微调]] — Transformer 的 scale-up 版本 + LoRA 微调
-- [[计算机视觉与ViT]] — Transformer 如何应用于视觉
-- [[多模态融合架构]] — Cross-Attention 实现模态融合
-- [[VLA模型总览]] — Transformer 在 VLA 各种模型中的使用全景
+
+- [[位置编码与归一化]] — Position Encoding 详解 + Pre/Post-norm
+- [[Cross-Attention与VLA应用]] — 多模态融合的核心 + VLA 架构
+- [[../深度学习基础/深度学习基础|深度学习基础]] — 反向传播、梯度下降等 Transformer 训练基础
+- [[../大语言模型与微调/大语言模型与微调|大语言模型与微调]] — Transformer 的 scale-up 版本 + LoRA 微调
+- [[../计算机视觉与ViT/计算机视觉与ViT|计算机视觉与ViT]] — Transformer 如何应用于视觉

@@ -83,70 +83,9 @@ SigLIP 用 patch=14, 384×384 图像 → 产生 (384/14)² = 729 个 token。
 
 ---
 
-## 3. VLA 中的视觉编码器
+## 3. 从 2D 到 3D：视觉的更深层
 
-### 3.1 CLIP：对比学习对齐视觉和语言
-
-**训练方式**：
-
-```
-Batch 内有 N 个 (图像, 文本) 对：
-
-图像: I₁  I₂  ... I_N    文本: T₁  T₂  ... T_N
-      ↓  ViT                ↓  Text Transformer
-视觉特征: v₁  v₂  ... v_N    文本特征: t₁  t₂  ... t_N
-
-计算 N×N 相似度矩阵:
-  S[i,j] = v_i · t_j / τ  (τ = 可学习温度)
-
-训练目标: 最大化对角元素 (正确配对)，最小化非对角元素
-         这就是 "对比学习" — 让配对的靠近，不配对的远离
-```
-
-**CLIP 给 VLA 带来了什么？**
-- 零样本理解："没见过训练集中的杯子"也能通过文本描述识别
-- 开放词汇：不是"分类为 class_37"，而是"这是红色马克杯"
-- 语义视觉特征：不只是"看起来像杯子"，而是"这是装热饮的容器"
-
-### 3.2 SigLIP：VLA 的标配视觉编码器
-
-**相比 CLIP 的改进**：把对比损失中的 softmax (依赖 batch size) 换成独立的 sigmoid：
-
-- CLIP: `loss = -log(exp(S[i,i]) / Σ_j exp(S[i,j]))` ← 需要大 batch 提供足够负样本
-- SigLIP: `loss = -log(σ(S[i,i])) - Σ_{j≠i} log(1-σ(S[i,j]))` ← 每个 pair 独立判断
-
-**结果**：SigLIP 不依赖 batch size，小 batch 也能稳定训练。
-
-**OpenVLA 配置**：`google/siglip-so400m-patch14-384`
-- 训练图像大小：384×384
-- Patch size：14×14 → 729 个 visual token
-- Hidden dim：1152
-- 通过两层 MLP 投影到 LLaMA 的 4096 维空间
-
-### 3.3 DINOv2：自监督的崛起
-
-不需要文本标注，纯靠自监督在图像上预训练。学到的特征捕获了极强的语义结构——甚至可以用来做实例分割和深度估计。
-
-**在 VLA 中的潜力**：
-- 比 CLIP/SigLIP 更关注物体几何结构
-- 对纹理变化不太敏感（更符合物理世界）
-- 新兴 VLA 方案开始采用
-
-### 3.4 选型对比
-
-| 编码器 | 预训练方式 | 参数量 | 输出 token 数 | 适合场景 |
-|--------|----------|--------|-------------|---------|
-| **SigLIP SO400M** | 图文对比 (sigmoid) | 400M | 729 | OpenVLA 标配 |
-| **CLIP ViT-L** | 图文对比 (softmax) | 300M | 256 | 通用 VLA，零样本强 |
-| **DINOv2 ViT-L** | 自监督 | 300M | 256 | 强调几何/空间理解 |
-| **EfficientNet-B3** | 监督分类 | 12M | — (特征向量) | 轻量 / RT-1 风格 |
-| **InternViT-300M** | 图文 + 自监督 | 300M | 可变 | 中文场景友好 |
-
----
-
-## 4. 从 2D 到 3D：视觉的更深层
-
-### 4.1 深度估计
+### 3.1 深度估计
 
 **单目深度估计**：从单张 RGB 图预测每个像素的深度。
 
@@ -158,21 +97,15 @@ Batch 内有 N 个 (图像, 文本) 对：
 
 > VLA 中可以加入深度估计分支，从单 RGB 获取 3D 信息。
 
-### 4.2 目标检测：找到物体在哪里
+### 3.2 目标检测与分割
 
-传统检测器 (YOLO, DETR) 输出 2D 框。VLA 需要的是 **3D 定位**。
-
-**DETR (2020)** 是 ViT 时代的检测器：用 Transformer 直接预测物体集合（去掉 NMS 后处理）。扩展 DETR → 3DETR 做 3D 框检测。
-
-### 4.3 分割：像素级理解
-
-- **SAM (Segment Anything)**：零样本实例分割，一张图找到所有"可区分区域"
+- **DETR**：ViT 时代的检测器，用 Transformer 直接预测物体集合
+- **SAM (Segment Anything)**：零样本实例分割
 - **SAM-3D**：把 SAM 延伸到 3D 点云
-- 在 VLA 中：分割出"可抓取区域" → 将候选区域输入抓取位姿评估网络
 
 ---
 
-## 5. 视觉在 VLA 中的典型流程
+## 4. 视觉在 VLA 中的典型流程
 
 ```
 实际部署链路:
@@ -198,7 +131,7 @@ LLaMA Decoder ←──────── 融合特征 ────────�
 
 ---
 
-## 6. 动手：用 SigLIP 提取视觉特征
+## 5. 动手：用 SigLIP 提取视觉特征
 
 ```python
 import torch
@@ -232,7 +165,7 @@ print(f"Projected tokens: {visual_features.shape}")  # [1, 729, 4096]
 
 ---
 
-## 7. 新手学习路线
+## 6. 新手学习路线
 
 ### 第一阶段：从 CNN 到 ViT (1-2 天)
 1. 用 ResNet-18 跑一次 ImageNet 的简单分类
@@ -240,8 +173,8 @@ print(f"Projected tokens: {visual_features.shape}")  # [1, 729, 4096]
 3. 可视化 ViT 每一层的 attention map ← 理解"模型在看哪里"
 
 ### 第二阶段：理解 CLIP/SigLIP (2-3 天)
-1. 读 CLIP 论文（很好读），理解对比学习的目标
-2. 用 CLIP 做零样本分类：不训练，直接推理你手机相册里的图片
+1. 读 CLIP 论文，理解对比学习的目标
+2. 用 CLIP 做零样本分类：不训练，直接推理你的图片
 3. 理解 SigLIP 的 sigmoid loss 和 CLIP softmax loss 的区别
 
 ### 第三阶段：VLA 视觉 (3-4 天)
@@ -251,9 +184,7 @@ print(f"Projected tokens: {visual_features.shape}")  # [1, 729, 4096]
 
 ---
 
-## 8. 推荐论文与资源
-
-### 必读论文
+## 7. 推荐论文与资源
 
 | # | 论文 | 关键词 | 理由 |
 |---|------|--------|------|
@@ -263,15 +194,9 @@ print(f"Projected tokens: {visual_features.shape}")  # [1, 729, 4096]
 | 4 | **DINOv2** (2304.07193) | 自监督视觉 | 更强空间理解的潜质 |
 | 5 | **RT-2** (2307.15818) | VLA 视觉-语言 | 看 ViT 在 VLA 中怎么用的 |
 
-### 教程与工具
-
-- **[ViT 可视化](https://github.com/sayakpaul/probing-vits)**：直观看到注意力在哪里
-- **[HuggingFace Vision Models](https://huggingface.co/models?pipeline_tag=image-classification)**：各种预训练 ViT 随便试
-- **[OpenVLA 源码](https://github.com/openvla/openvla)**：`prismatic/vla/models.py` 看视觉编码器怎么接 LLM
-
 ---
 
-## 9. 自检问题
+## 8. 自检问题
 
 ### 基础关
 - [ ] 我能画出 ViT 的完整数据流（patch → embedding → Transformer → 输出）
@@ -289,13 +214,14 @@ print(f"Projected tokens: {visual_features.shape}")  # [1, 729, 4096]
 - [ ] 我能用 SigLIP 提取图像特征
 - [ ] 我能理解 OpenVLA 源码中视觉投影器的定义
 - [ ] 我知道在 VLA 中 visual token 如何与 text token 拼接
-- [ ] 我能评估不同视觉编码器对 VLA 性能的影响（延时、精度、鲁棒性）
+- [ ] 我能评估不同视觉编码器对 VLA 性能的影响
 
 ---
 
 ## 关联笔记
-- [[Transformer与注意力]] — ViT 的底层引擎
-- [[深度学习基础]] — CNN、反向传播等基础
-- [[VLA模型总览]] — 视觉编码器在 VLA 中的位置和角色
-- [[多模态融合架构]] — 视觉特征如何与语言特征融合
-- [[3D视觉与点云]] — 从 2D 视觉扩展到 3D 感知
+
+- [[CLIP与多模态对齐]] — 对比学习 + SigLIP vs CLIP + OpenVLA 配置
+- [[DINOv2与自监督视觉]] — 自监督视觉特征 + 3D 几何理解
+- [[../Transformer与注意力/Transformer与注意力|Transformer与注意力]] — ViT 的底层引擎
+- [[../3D视觉与点云/3D视觉与点云|3D视觉与点云]] — 从 2D 视觉扩展到 3D 感知
+- [[../../02-VLA/VLA模型总览|VLA模型总览]] — 视觉编码器在 VLA 中的位置和角色
