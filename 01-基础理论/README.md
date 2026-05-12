@@ -21,7 +21,10 @@
 ├── 深度学习基础/                 ← 神经网络、反向传播、训练技巧
 │   ├── 深度学习基础.md           (核心概念)
 │   ├── 训练技巧与正则化.md       (Normalization/激活/调度/防过拟合)
-│   └── PyTorch实战.md           (完整训练循环代码)
+│   ├── PyTorch实战.md           (完整训练循环代码)
+│   ├── 表示学习与Embedding.md    (从像素到语义向量、流形假设)
+│   ├── 自监督学习基础.md         (对比学习/MAE/DINOv2/CLIP 范式)
+│   └── 序列建模演进.md           (RNN→LSTM→Transformer 历史脉络)
 │
 ├── Transformer与注意力/          ← Self-Attention 到 VLA 应用
 │   ├── Transformer与注意力.md    (核心公式 + Multi-Head + 完整实现)
@@ -57,6 +60,9 @@
 |------------|-----------|
 | 神经网络为什么能学习 | [[深度学习基础/深度学习基础|深度学习基础]] |
 | VLA 的训练循环长什么样 | [[深度学习基础/PyTorch实战|PyTorch实战]] |
+| 神经网络学到了什么表示 | [[深度学习基础/表示学习与Embedding|表示学习与Embedding]] |
+| DINOv2/CLIP 是怎么训练的 | [[深度学习基础/自监督学习基础|自监督学习基础]] |
+| RNN 和 LSTM 有什么区别 | [[深度学习基础/序列建模演进|序列建模演进]] |
 | Attention 的 Q/K/V 是什么 | [[Transformer与注意力/Transformer与注意力|Transformer与注意力]] |
 | 视觉特征怎么进入 LLM | [[Transformer与注意力/Cross-Attention与VLA应用|Cross-Attention与VLA应用]] |
 | ViT 怎么"看"图像的 | [[计算机视觉与ViT/计算机视觉与ViT|计算机视觉与ViT]] |
