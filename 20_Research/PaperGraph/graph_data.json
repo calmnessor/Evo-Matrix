@@ -98,6 +98,50 @@
       "analyzed": true,
       "note_path": "20_Research/Papers/VLA_Embodied/Fast_in_Slow_Dual_System_VLA/Fast_in_Slow_Dual_System_VLA.md",
       "year": 2025
+    },
+    "3daffordsplat_2504.11218": {
+      "id": "3daffordsplat_2504.11218",
+      "title": "3DAffordSplat: Efficient Affordance Reasoning with 3D Gaussians",
+      "arxiv_id": "2504.11218",
+      "domain": "Affordance",
+      "quality_score": 8.5,
+      "tags": ["Affordance", "3DGS", "3D-Gaussian-Splatting", "Cross-Modal", "Point-Cloud", "Dataset", "CVPR-2025", "Embodied-AI", "Affordance-Reasoning", "Multi-Modal"],
+      "analyzed": true,
+      "note_path": "20_Research/Papers/Affordance/3DAffordSplat_Efficient_Affordance_Reasoning/3DAffordSplat_Efficient_Affordance_Reasoning.md",
+      "year": 2025
+    },
+    "seqaffordsplat_2507.23772": {
+      "id": "seqaffordsplat_2507.23772",
+      "title": "SeqAffordSplat: Scene-level Sequential Affordance Reasoning on 3D Gaussian Splatting",
+      "arxiv_id": "2507.23772",
+      "domain": "Affordance",
+      "quality_score": 8.8,
+      "tags": ["Affordance", "3DGS", "3D-Gaussian-Splatting", "Sequential-Reasoning", "Scene-Level", "LLM", "VFM", "Multi-Modal", "Embodied-AI", "Long-Horizon"],
+      "analyzed": true,
+      "note_path": "20_Research/Papers/Affordance/SeqAffordSplat_Sequential_Affordance_Reasoning/SeqAffordSplat_Sequential_Affordance_Reasoning.md",
+      "year": 2025
+    },
+    "rekep_2409.01652": {
+      "id": "rekep_2409.01652",
+      "title": "ReKep: Spatio-Temporal Reasoning of Relational Keypoint Constraints for Robotic Manipulation",
+      "arxiv_id": "2409.01652",
+      "domain": "VLA_Embodied",
+      "quality_score": 9.0,
+      "tags": ["Manipulation", "Keypoint-Constraints", "VLM", "GPT-4o", "DINOv2", "Constraint-Optimization", "Multi-Stage", "Bimanual", "In-the-Wild", "CoRL-2024", "Foundation-Model", "Closed-Loop"],
+      "analyzed": true,
+      "note_path": "20_Research/Papers/VLA_Embodied/ReKep_Relational_Keypoint_Constraints/ReKep_Relational_Keypoint_Constraints.md",
+      "year": 2024
+    },
+    "uad_2506.09284": {
+      "id": "uad_2506.09284",
+      "title": "UAD: Unsupervised Affordance Distillation for Generalization in Robotic Manipulation",
+      "arxiv_id": "2506.09284",
+      "domain": "Affordance",
+      "quality_score": 8.8,
+      "tags": ["Affordance", "Unsupervised-Learning", "Foundation-Model", "DINOv2", "VLM", "GPT-4o", "Imitation-Learning", "Manipulation", "Knowledge-Distillation", "Sim-to-Real", "Task-Conditioned", "FiLM"],
+      "analyzed": true,
+      "note_path": "20_Research/Papers/Affordance/UAD_Unsupervised_Affordance_Distillation/UAD_Unsupervised_Affordance_Distillation.md",
+      "year": 2025
     }
   },
   "edges": [
@@ -158,7 +202,36 @@
     {"source": "fis_2506.01953", "target": "diffusion_policy", "type": "extends", "weight": 0.7},
     {"source": "fis_2506.01953", "target": "openvla", "type": "extends", "weight": 0.7},
     {"source": "fis_2506.01953", "target": "oxe", "type": "uses", "weight": 0.6},
-    {"source": "fis_2506.01953", "target": "droid", "type": "uses", "weight": 0.5}
+    {"source": "fis_2506.01953", "target": "droid", "type": "uses", "weight": 0.5},
+    {"source": "3daffordsplat_2504.11218", "target": "laso", "type": "extends", "weight": 0.9},
+    {"source": "3daffordsplat_2504.11218", "target": "shapesplat", "type": "uses", "weight": 0.8},
+    {"source": "3daffordsplat_2504.11218", "target": "pointnet", "type": "uses", "weight": 0.6},
+    {"source": "3daffordsplat_2504.11218", "target": "iagnet", "type": "compares", "weight": 0.5},
+    {"source": "3daffordsplat_2504.11218", "target": "langsplat", "type": "related", "weight": 0.5},
+    {"source": "3daffordsplat_2504.11218", "target": "pi0_2410.24164", "type": "related", "weight": 0.3},
+    {"source": "3daffordsplat_2504.11218", "target": "hi_robot_2502.19417", "type": "related", "weight": 0.3},
+    {"source": "seqaffordsplat_2507.23772", "target": "3daffordsplat_2504.11218", "type": "extends", "weight": 0.95},
+    {"source": "seqaffordsplat_2507.23772", "target": "seqafford", "type": "improves", "weight": 0.85},
+    {"source": "seqaffordsplat_2507.23772", "target": "laso", "type": "extends", "weight": 0.7},
+    {"source": "seqaffordsplat_2507.23772", "target": "dinov2", "type": "uses", "weight": 0.6},
+    {"source": "seqaffordsplat_2507.23772", "target": "pi0_2410.24164", "type": "related", "weight": 0.3},
+    {"source": "seqaffordsplat_2507.23772", "target": "hi_robot_2502.19417", "type": "related", "weight": 0.35},
+    {"source": "rekep_2409.01652", "target": "voxposer", "type": "improves", "weight": 0.9},
+    {"source": "rekep_2409.01652", "target": "pi0_2410.24164", "type": "related", "weight": 0.5},
+    {"source": "rekep_2409.01652", "target": "hi_robot_2502.19417", "type": "related", "weight": 0.5},
+    {"source": "rekep_2409.01652", "target": "3daffordsplat_2504.11218", "type": "related", "weight": 0.4},
+    {"source": "rekep_2409.01652", "target": "seqaffordsplat_2507.23772", "type": "related", "weight": 0.45},
+    {"source": "rekep_2409.01652", "target": "dinov2", "type": "uses", "weight": 0.7},
+    {"source": "rekep_2409.01652", "target": "sam", "type": "uses", "weight": 0.5},
+    {"source": "uad_2506.09284", "target": "3daffordsplat_2504.11218", "type": "related", "weight": 0.5},
+    {"source": "uad_2506.09284", "target": "seqaffordsplat_2507.23772", "type": "related", "weight": 0.4},
+    {"source": "uad_2506.09284", "target": "rekep_2409.01652", "type": "related", "weight": 0.8},
+    {"source": "uad_2506.09284", "target": "dinov2", "type": "uses", "weight": 0.85},
+    {"source": "uad_2506.09284", "target": "clip", "type": "uses", "weight": 0.5},
+    {"source": "uad_2506.09284", "target": "gpt4o", "type": "uses", "weight": 0.6},
+    {"source": "uad_2506.09284", "target": "droid", "type": "uses", "weight": 0.5},
+    {"source": "uad_2506.09284", "target": "pi0_2410.24164", "type": "related", "weight": 0.35},
+    {"source": "uad_2506.09284", "target": "hi_robot_2502.19417", "type": "related", "weight": 0.35}
   ],
   "last_updated": "2026-05-12"
 }
