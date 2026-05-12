@@ -101,6 +101,7 @@ Affordance 预测方法
 │       代表: 3DAffordSplat, SeqAffordSplat, GauTOAO, Splat-MOVER
 │       优势: 连续密集表征, 实时渲染, 天然适合 affordance 定位
 │       关键突破: 从单物体→场景级, 从单步→序列化, 从几何→语义+物理
+│       基础: [[../01-基础理论/3D视觉/3DGS|3DGS 基础原理]]
 │
 ├── 路线 D: VLM/LLM 引导 (Language-Guided)
 │   思路: 用 VLM 的常识推理 → 指导 affordance 预测
