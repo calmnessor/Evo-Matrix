@@ -283,5 +283,5 @@ importer.load("./franka_panda.urdf")
 - [[MuJoCo]] — Blender 导出的 mesh 在 MuJoCo 中的使用
 - [[Isaac Sim与Isaac Lab]] — USD workflow 与光追渲染
 - [[仿真数据与Domain Randomization]] — 合成数据的深入讨论
-- [[../../01-基础理论/3D视觉与点云]] — 3DGS 和点云处理
+- [[../../01-基础理论/3D视觉/3D视觉与点云]] — 3DGS 和点云处理
 - [[仿真与工具索引]] — 回到工具索引

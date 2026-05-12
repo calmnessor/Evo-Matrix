@@ -223,5 +223,5 @@ print(f"Projected tokens: {visual_features.shape}")  # [1, 729, 4096]
 - [[CLIP与多模态对齐]] — 对比学习 + SigLIP vs CLIP + OpenVLA 配置
 - [[DINOv2与自监督视觉]] — 自监督视觉特征 + 3D 几何理解
 - [[../Transformer与注意力/Transformer与注意力|Transformer与注意力]] — ViT 的底层引擎
-- [[../3D视觉与点云/3D视觉与点云|3D视觉与点云]] — 从 2D 视觉扩展到 3D 感知
+- [[../3D视觉/3D视觉与点云|3D视觉与点云]] — 从 2D 视觉扩展到 3D 感知
 - [[../../02-VLA/VLA模型总览|VLA模型总览]] — 视觉编码器在 VLA 中的位置和角色

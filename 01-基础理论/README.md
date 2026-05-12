@@ -33,10 +33,10 @@
 │   ├── CLIP与多模态对齐.md      (对比学习 + SigLIP vs CLIP + OpenVLA配置)
 │   └── DINOv2与自监督视觉.md    (自监督 + 3D几何理解潜力)
 │
-├── 3D视觉与点云/                 ← 深度/点云/NeRF/3DGS
-│   ├── 3D视觉与点云.md          (传感器 + 点云处理 + PointNet/PointNet++)
+├── 3D视觉/                       ← 深度/点云/NeRF/3DGS
+│   ├── 3D视觉与点云.md          (传感器 + 点云/PointNet + 前沿Pipeline)
 │   ├── NeRF神经辐射场.md        (体渲染 + 位置编码 + 机器人应用)
-│   └── 3DGaussianSplatting.md   (显式表示 + 实时渲染 + affordance/VLA应用)
+│   └── 3DGS.md                  (显式表示 + 实时渲染 + affordance/VLA应用)
 │
 ├── 大语言模型与微调/             ← LLM 到 VLA Backbone
 │   ├── 大语言模型与微调.md      (自回归 + Tokenizer + Scaling Law + VLA范式)
@@ -61,9 +61,9 @@
 | 视觉特征怎么进入 LLM | [[Transformer与注意力/Cross-Attention与VLA应用|Cross-Attention与VLA应用]] |
 | ViT 怎么"看"图像的 | [[计算机视觉与ViT/计算机视觉与ViT|计算机视觉与ViT]] |
 | SigLIP vs CLIP 怎么选 | [[计算机视觉与ViT/CLIP与多模态对齐|CLIP与多模态对齐]] |
-| 点云怎么用神经网络处理 | [[3D视觉与点云/3D视觉与点云|3D视觉与点云]] |
-| NeRF 的原理 | [[3D视觉与点云/NeRF神经辐射场|NeRF神经辐射场]] |
-| 3DGS 为什么比 NeRF 快 | [[3D视觉与点云/3DGaussianSplatting|3D Gaussian Splatting]] |
+| 点云怎么用神经网络处理 | [[3D视觉/3D视觉与点云|3D视觉与点云]] |
+| NeRF 的原理 | [[3D视觉/NeRF神经辐射场|NeRF神经辐射场]] |
+| 3DGS 为什么比 NeRF 快 | [[3D视觉/3DGS|3DGS]] |
 | LoRA 怎么省显存 | [[大语言模型与微调/LoRA与参数高效微调|LoRA与参数高效微调]] |
 | QLoRA 代码怎么写 | [[大语言模型与微调/QLoRA完整实现|QLoRA完整实现]] |
 | PPO 怎么工作的 | [[../01-基础理论/强化学习|强化学习]] |
