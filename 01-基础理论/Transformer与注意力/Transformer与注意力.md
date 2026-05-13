@@ -246,4 +246,4 @@ print(f"输入: {x.shape} → 输出: {output.shape}")  # [2, 64, 512]
 - [[Cross-Attention与VLA应用]] — 多模态融合的核心 + VLA 架构
 - [[../深度学习基础/深度学习基础|深度学习基础]] — 反向传播、梯度下降等 Transformer 训练基础
 - [[../大语言模型与微调/大语言模型与微调|大语言模型与微调]] — Transformer 的 scale-up 版本 + LoRA 微调
-- [[../计算机视觉与ViT/计算机视觉与ViT|计算机视觉与ViT]] — Transformer 如何应用于视觉
+- [[../视觉基础模型/ViT/ViT概述|视觉基础模型]] — Transformer 如何应用于视觉

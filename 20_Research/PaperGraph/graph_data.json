@@ -285,6 +285,26 @@
       "analyzed": true,
       "note_path": "20_Research/Papers/Grasp/AnyGrasp/AnyGrasp.md",
       "year": 2022
+    },
+    "dinov2_2304.07193": {
+      "id": "dinov2_2304.07193",
+      "title": "DINOv2: Learning Robust Visual Features without Supervision",
+      "arxiv_id": "2304.07193",
+      "domain": "Other",
+      "quality_score": 9.0,
+      "tags": [
+        "Self-Supervised-Learning",
+        "ViT",
+        "Foundation-Model",
+        "Visual-Features",
+        "DINO",
+        "iBOT",
+        "Knowledge-Distillation",
+        "Data-Curation"
+      ],
+      "analyzed": true,
+      "note_path": "20_Research/Papers/Other/DINOv2/DINOv2.md",
+      "year": 2023
     }
   },
   "edges": [
@@ -809,7 +829,43 @@
       "target": "hi_robot_2502.19417",
       "type": "related",
       "weight": 0.35
+    },
+    {
+      "source": "dinov2_2304.07193",
+      "target": "dino",
+      "type": "extends",
+      "weight": 0.9
+    },
+    {
+      "source": "dinov2_2304.07193",
+      "target": "ibot",
+      "type": "extends",
+      "weight": 0.95
+    },
+    {
+      "source": "dinov2_2304.07193",
+      "target": "swav",
+      "type": "uses",
+      "weight": 0.6
+    },
+    {
+      "source": "dinov2_2304.07193",
+      "target": "openclip",
+      "type": "compares",
+      "weight": 0.8
+    },
+    {
+      "source": "dinov2_2304.07193",
+      "target": "clip",
+      "type": "compares",
+      "weight": 0.7
+    },
+    {
+      "source": "dinov2_2304.07193",
+      "target": "mae",
+      "type": "compares",
+      "weight": 0.5
     }
   ],
-  "last_updated": "2026-05-12"
+  "last_updated": "2026-05-13"
 }

@@ -80,6 +80,6 @@ projector = nn.Sequential(
 
 ## 关联笔记
 
-- [[计算机视觉与ViT]] — ViT 架构 + VLA 视觉流程
+- [[ViT/ViT概述|ViT概述]] — ViT 架构 + VLA 视觉流程
 - [[DINOv2与自监督视觉]] — 自监督替代方案
 - [[../Transformer与注意力/Cross-Attention与VLA应用|Cross-Attention与VLA应用]] — 视觉 token 如何注入 LLM

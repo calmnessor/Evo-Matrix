@@ -105,4 +105,4 @@ ns-render --load-config outputs/my_scene/nerfacto/config.yml
 
 - [[3D视觉与点云]] — 点云、体素等其他 3D 表示
 - [[3DGS]] — 替代 NeRF 的显式 3D 表示
-- [[../计算机视觉与ViT/计算机视觉与ViT|计算机视觉与ViT]] — 2D 视觉基础
+- [[../视觉基础模型/ViT/ViT概述|视觉基础模型]] — 2D 视觉基础

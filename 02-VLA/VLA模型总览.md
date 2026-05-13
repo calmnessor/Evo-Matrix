@@ -231,7 +231,7 @@ De-tokenize: bin_index → 对应 bin 的中心值 → 连续动作
 
 ## 关联笔记
 - [[Transformer与注意力]] — 所有 VLA 的核心引擎
-- [[计算机视觉与ViT]] — 视觉编码器对比 (SigLIP/CLIP/DINOv2)
+- [[ViT/ViT概述|ViT概述]] — 视觉编码器对比 (SigLIP/CLIP/DINOv2)
 - [[大语言模型与微调]] — LLM backbone + LoRA
 - [[行为克隆]] — VLA 的主要训练方式
 - [[扩散策略]] — 路线 2 的详细展开

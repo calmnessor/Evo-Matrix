@@ -31,10 +31,17 @@
 │   ├── 位置编码与归一化.md       (Sinusoidal/Learnable/RoPE + Pre-norm/Post-norm)
 │   └── Cross-Attention与VLA应用.md (模态融合 + RT-1/RT-2/OpenVLA 架构)
 │
-├── 计算机视觉与ViT/              ← CNN 到 ViT 到视觉编码器
-│   ├── 计算机视觉与ViT.md       (范式转变 + ViT架构 + VLA中的视觉)
-│   ├── CLIP与多模态对齐.md      (对比学习 + SigLIP vs CLIP + OpenVLA配置)
-│   └── DINOv2与自监督视觉.md    (自监督 + 3D几何理解潜力)
+├── 视觉基础模型/              ← CNN 到 ViT 到视觉编码器
+│   ├── ViT/
+│   │   ├── ViT概述.md           (范式转变 + ViT架构 + VLA中的视觉)
+│   │   └── 庖丁解牛VIT.md       (ViT代码级深度解析)
+│   ├── CLIP/
+│   │   ├── CLIP与多模态对齐.md   (对比学习 + SigLIP vs CLIP + OpenVLA配置)
+│   │   └── 多模态模型CLIP原理与实战.md (CLIP原理+图片分类+文搜图实战)
+│   └── DINO/
+│       ├── DINO.md              (自监督ViT, Momentum Teacher)
+│       ├── DINOv2与自监督视觉.md (自监督 + 3D几何理解潜力)
+│       └── DINOv2/              (DINOv2论文深度分析+代码)
 │
 ├── 3D视觉/                       ← 深度/点云/NeRF/3DGS
 │   ├── 3D视觉与点云.md          (传感器 + 点云/PointNet + 前沿Pipeline)
@@ -65,8 +72,8 @@
 | RNN 和 LSTM 有什么区别 | [[深度学习基础/序列建模演进|序列建模演进]] |
 | Attention 的 Q/K/V 是什么 | [[Transformer与注意力/Transformer与注意力|Transformer与注意力]] |
 | 视觉特征怎么进入 LLM | [[Transformer与注意力/Cross-Attention与VLA应用|Cross-Attention与VLA应用]] |
-| ViT 怎么"看"图像的 | [[计算机视觉与ViT/计算机视觉与ViT|计算机视觉与ViT]] |
-| SigLIP vs CLIP 怎么选 | [[计算机视觉与ViT/CLIP与多模态对齐|CLIP与多模态对齐]] |
+| ViT 怎么"看"图像的 | [[视觉基础模型/ViT/ViT概述|ViT概述]] |
+| SigLIP vs CLIP 怎么选 | [[视觉基础模型/CLIP/CLIP与多模态对齐|CLIP与多模态对齐]] |
 | 点云怎么用神经网络处理 | [[3D视觉/3D视觉与点云|3D视觉与点云]] |
 | NeRF 的原理 | [[3D视觉/NeRF神经辐射场|NeRF神经辐射场]] |
 | 3DGS 为什么比 NeRF 快 | [[3D视觉/3DGS|3DGS]] |

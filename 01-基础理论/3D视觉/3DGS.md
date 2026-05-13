@@ -170,7 +170,7 @@ graph TD
 ### 基础理论
 - [[3D视觉与点云]] — 点云、体素等其他 3D 表示
 - [[NeRF神经辐射场]] — 3DGS 的前身和对比基准
-- [[../计算机视觉与ViT/计算机视觉与ViT|计算机视觉与ViT]] — 2D 视觉基础
+- [[../视觉基础模型/ViT/ViT概述|视觉基础模型]] — 2D 视觉基础
 
 ### 直接下游（Affordance）
 - [[../../03-Affordance/Affordance方向综述|Affordance方向综述]] — 3DGS affordance 学术全景

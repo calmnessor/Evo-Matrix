@@ -117,6 +117,6 @@ Step 5: LLaMA Decoder 自回归生成
 
 - [[Transformer与注意力]] — Self-Attention 基础
 - [[位置编码与归一化]] — RoPE 在 VLA 中的作用
-- [[../计算机视觉与ViT/计算机视觉与ViT|计算机视觉与ViT]] — 视觉编码器详解
+- [[../视觉基础模型/ViT/ViT概述|视觉基础模型]] — 视觉编码器详解
 - [[../大语言模型与微调/大语言模型与微调|大语言模型与微调]] — LLM Backbone 详解
 - [[../../02-VLA/VLA模型总览|VLA模型总览]] — VLA 各模型架构全景对比
