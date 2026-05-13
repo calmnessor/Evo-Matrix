@@ -32,6 +32,16 @@ System-1/System-2 双系统架构，兼顾慢推理与快执行。
 
 → 详见 [[分层VLA（大小脑）/README|分层 VLA 总览]]
 
+### 框架与优化
+
+不重新发明架构，在现有 VLA 基础上系统性解决分布偏移、训练效率、部署鲁棒性问题。
+
+| # | 论文 | 日期 | 核心贡献 |
+|---|------|------|----------|
+| 1 | [[../../20_Research/Papers/VLA_Embodied/KAI0/KAI0\|χ₀ (KAI-0)]] | 2026.02 | 三大支柱解决分布不一致：Model Arithmetic + Stage Advantage + Train-Deploy Alignment |
+
+→ 详见 [[框架与优化/README|框架与优化总览]]
+
 ## 待组织论文
 
 以下核心论文尚未纳入精读体系，可作为后续补充方向：

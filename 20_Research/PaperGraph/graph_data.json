@@ -305,6 +305,30 @@
       "analyzed": true,
       "note_path": "20_Research/Papers/Other/DINOv2/DINOv2.md",
       "year": 2023
+    },
+    "kai0_2602.09021": {
+      "id": "kai0_2602.09021",
+      "title": "χ₀: Resource-Aware Robust Manipulation via Taming Distributional Inconsistencies",
+      "arxiv_id": "2602.09021",
+      "domain": "VLA_Embodied",
+      "quality_score": 8.8,
+      "tags": [
+        "VLA",
+        "Manipulation",
+        "Distributional-Shift",
+        "Model-Merging",
+        "Advantage-Weighted-Regression",
+        "Long-Horizon",
+        "Garment-Manipulation",
+        "Action-Chunking",
+        "Flow-Matching",
+        "π0-series",
+        "Data-Efficiency",
+        "Dual-Arm"
+      ],
+      "analyzed": true,
+      "note_path": "20_Research/Papers/VLA_Embodied/KAI0/KAI0.md",
+      "year": 2026
     }
   },
   "edges": [
@@ -865,6 +889,36 @@
       "target": "mae",
       "type": "compares",
       "weight": 0.5
+    },
+    {
+      "source": "kai0_2602.09021",
+      "target": "pi0.5_2504.16054",
+      "type": "extends",
+      "weight": 0.95
+    },
+    {
+      "source": "kai0_2602.09021",
+      "target": "pi0.6_recap_2511.14759",
+      "type": "improves",
+      "weight": 0.85
+    },
+    {
+      "source": "kai0_2602.09021",
+      "target": "rtc_2506.07339",
+      "type": "extends",
+      "weight": 0.7
+    },
+    {
+      "source": "kai0_2602.09021",
+      "target": "pi0_2410.24164",
+      "type": "related",
+      "weight": 0.7
+    },
+    {
+      "source": "kai0_2602.09021",
+      "target": "fast_2501.09747",
+      "type": "uses",
+      "weight": 0.6
     }
   ],
   "last_updated": "2026-05-13"
