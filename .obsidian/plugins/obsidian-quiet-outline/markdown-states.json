@@ -1,0 +1,1058 @@
+{
+  "agent/python语法.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "agent/资料.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "agent/FastAPI.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 27
+      },
+      "to": {
+        "line": 6,
+        "ch": 27
+      }
+    },
+    "expandedKeys": [
+      "item-2-15",
+      "item-2-8"
+    ]
+  },
+  "agent/LangChain/短期记忆.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "agent/黑马LangChain课程/LangChain.md": {
+    "scroll": 401.67911538930184,
+    "cursor": {
+      "from": {
+        "line": 405,
+        "ch": 0
+      },
+      "to": {
+        "line": 405,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-4",
+      "item-2-2"
+    ]
+  },
+  "DailyNotes/2026-01-22.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "1.日记文件/2026-01-29 周四.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "1.日记文件/2026-01-30 周五.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "3D affordacne/Dr.Splat运行.md": {
+    "scroll": 51.904761904761905,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "3D affordacne/语义嵌入工作.md": {
+    "scroll": 2.8833338419596353,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "3D affordacne/1月18日.md": {
+    "scroll": 76.52651485568126,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "1.日记文件/2026-02-01 周日.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "3D affordacne/代码/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "3D affordacne/代码/Dr-Splat/Untitled 1.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "3D affordacne/代码/Dr-Splat/preprocessing.py.md": {
+    "scroll": 6.333333333333333,
+    "cursor": {
+      "from": {
+        "line": 27,
+        "ch": 12
+      },
+      "to": {
+        "line": 27,
+        "ch": 12
+      }
+    },
+    "expandedKeys": []
+  },
+  "3D affordacne/代码/Dr-Splat/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "3D affordacne/代码/Dr-Splat/train.py.md": {
+    "scroll": 61.57142857142857,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 30
+      },
+      "to": {
+        "line": 5,
+        "ch": 30
+      }
+    },
+    "expandedKeys": []
+  },
+  "3D affordacne/代码/Dr-Splat/render_activation.py.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 9
+      },
+      "to": {
+        "line": 2,
+        "ch": 9
+      }
+    },
+    "expandedKeys": []
+  },
+  "读书笔记/津巴多普通心理学/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "读书笔记/津巴多普通心理学/心智、行为和心理科学.md": {
+    "scroll": 26.277994791666668,
+    "cursor": {
+      "from": {
+        "line": 38,
+        "ch": 75
+      },
+      "to": {
+        "line": 31,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "1.日记文件/2026-02-02 周一.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "agent/黑马LangChain课程/RAG项目/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "agent/黑马LangChain课程/RAG项目/介绍.md": {
+    "scroll": 7.1308596942424,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 36
+      },
+      "to": {
+        "line": 3,
+        "ch": 36
+      }
+    },
+    "expandedKeys": []
+  },
+  "agent/黑马LangChain课程/RAG项目/文件上传WEB服务.md": {
+    "scroll": 28.338692801339285,
+    "cursor": {
+      "from": {
+        "line": 34,
+        "ch": 36
+      },
+      "to": {
+        "line": 34,
+        "ch": 36
+      }
+    },
+    "expandedKeys": []
+  },
+  "agent/黑马LangChain课程/RAG项目/md5工具函数开发.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "3D affordacne/论文/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "3D affordacne/论文/Interaction-Aware 4D Gaussian Splatting for Dynamic Hand-Object Interaction Reconstruction.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 12
+      },
+      "to": {
+        "line": 2,
+        "ch": 12
+      }
+    },
+    "expandedKeys": []
+  },
+  "3D affordacne/论文/GraspSplats.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 29
+      },
+      "to": {
+        "line": 3,
+        "ch": 29
+      }
+    },
+    "expandedKeys": []
+  },
+  "人生管理/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "人生管理/如何在一天内改变人生.md": {
+    "scroll": 34.17152735922072,
+    "cursor": {
+      "from": {
+        "line": 42,
+        "ch": 0
+      },
+      "to": {
+        "line": 42,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "1.日记文件/2026-02-06 周五.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "3D affordacne/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "3D affordacne/LERF.md": {
+    "scroll": 32.30468718210856,
+    "cursor": {
+      "from": {
+        "line": 33,
+        "ch": 0
+      },
+      "to": {
+        "line": 33,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "3D affordacne/论文阅读模板.md": {
+    "scroll": 42.329164584477745,
+    "cursor": {
+      "from": {
+        "line": 54,
+        "ch": 2
+      },
+      "to": {
+        "line": 54,
+        "ch": 2
+      }
+    },
+    "expandedKeys": []
+  },
+  "3D affordacne/LERF论文笔记.md": {
+    "scroll": 30.067528474030077,
+    "cursor": {
+      "from": {
+        "line": 35,
+        "ch": 12
+      },
+      "to": {
+        "line": 35,
+        "ch": 12
+      }
+    },
+    "expandedKeys": []
+  },
+  "3D affordacne/Paper Note LERF - Language Embedded Radiance FieldsTags #Paper #NeRF #EmbodiedAI #Semantic #CLIP #3DSceneUnderstandingLinks [[NeRF]], [[CLIP]], [[DINO]], [[Dr. Splat]]Date 2026-02-08Authors Justin Kerr et al. (UC Berkeley)Conference ICCV 2023.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "论文/Dr. Splat.md": {
+    "scroll": 17.28273778392435,
+    "cursor": {
+      "from": {
+        "line": 52,
+        "ch": 0
+      },
+      "to": {
+        "line": 52,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "论文/Ludvig.md": {
+    "scroll": 62.19507458997603,
+    "cursor": {
+      "from": {
+        "line": 62,
+        "ch": 4
+      },
+      "to": {
+        "line": 62,
+        "ch": 4
+      }
+    },
+    "expandedKeys": []
+  },
+  "论文/LangSplat.md": {
+    "scroll": 59.33053862826745,
+    "cursor": {
+      "from": {
+        "line": 55,
+        "ch": 11
+      },
+      "to": {
+        "line": 55,
+        "ch": 11
+      }
+    },
+    "expandedKeys": []
+  },
+  "3D affordacne/DiffGS.md": {
+    "scroll": 26.544921875,
+    "cursor": {
+      "from": {
+        "line": 40,
+        "ch": 0
+      },
+      "to": {
+        "line": 40,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "1.日记文件/2026-02-09 周一.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "人生管理/能量低如何处理.md": {
+    "scroll": 28.343254661764277,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "人生管理/戒掉短视频上瘾.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "3D affordacne/3D场景语义嵌入综述.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 4
+      },
+      "to": {
+        "line": 0,
+        "ch": 4
+      }
+    },
+    "expandedKeys": []
+  },
+  "1.日记文件/2026-02-13 周五.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "1.日记文件/2026-02-14 周六.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "3D affordacne/4D LangSplat.md": {
+    "scroll": 10.377083333333333,
+    "cursor": {
+      "from": {
+        "line": 24,
+        "ch": 152
+      },
+      "to": {
+        "line": 24,
+        "ch": 152
+      }
+    },
+    "expandedKeys": []
+  },
+  "3D affordacne/3D场景语义嵌入总结.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 35
+      },
+      "to": {
+        "line": 11,
+        "ch": 35
+      }
+    },
+    "expandedKeys": []
+  },
+  "1.日记文件/2026-02-20 周五.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "1.日记文件/2026-02-28 周六.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "3D affordacne/PointNet++.md": {
+    "scroll": 30.806994163871146,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "论文/GaussianGrasper.md": {
+    "scroll": 0.5263157894736842,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "论文/Grounding 3D Object Affordance.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "论文/O³Afford.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "1.日记文件/2026-03-01 周日.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "人生管理/有效努力/第一天.md": {
+    "scroll": 1.6125773867709352,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 20
+      },
+      "to": {
+        "line": 5,
+        "ch": 20
+      }
+    },
+    "expandedKeys": []
+  },
+  "Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "30天拥有好声音/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "30天拥有好声音/打开口腔.md": {
+    "scroll": 25.22657046684852,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 36
+      },
+      "to": {
+        "line": 30,
+        "ch": 36
+      }
+    },
+    "expandedKeys": []
+  },
+  "1.日记文件/2026-03-03 周二.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "论文/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "论文/Probing and Bridging Geometry-Interaction Cues for Affordance Reasoning in Vision Foundation Models.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 0
+      },
+      "to": {
+        "line": 2,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "1.日记文件/2026-03-08 周日.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "论文/SAR3D Autoregressive 3D Object Generation and Understanding viaMulti-scale 3D VQVAE.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "未命名看板.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Leetcode刷题记录/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Leetcode刷题记录/README.md.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 21,
+        "ch": 0
+      },
+      "to": {
+        "line": 21,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "README.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 13
+      },
+      "to": {
+        "line": 0,
+        "ch": 13
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNotes/DailyNotes.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "1.日记文件/2026-03-21 周六.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 6
+      },
+      "to": {
+        "line": 3,
+        "ch": 6
+      }
+    },
+    "expandedKeys": []
+  },
+  "人生管理/有效努力/第三天.md": {
+    "scroll": 0.6172982031468206,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "3.知识文件/MLP.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 24
+      },
+      "to": {
+        "line": 11,
+        "ch": 24
+      }
+    },
+    "expandedKeys": []
+  },
+  "3.知识文件/Transformer.md": {
+    "scroll": 39.87173632848462,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 15
+      },
+      "to": {
+        "line": 7,
+        "ch": 15
+      }
+    },
+    "expandedKeys": []
+  },
+  "1.日记文件/2026-04-10 周五.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "30天拥有好声音/30天拥有好声音.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  }
+}

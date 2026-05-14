@@ -1,0 +1,9 @@
+@import url('https://fonts.font.im/css?family=LXGW+WenKai+Screen');
+
+body,
+.markdown-preview-view,
+.cm-content,
+.cm-line {
+    font-family: "LXGW WenKai Screen", "LXGW WenKai Screen Regular", sans-serif !important;
+    --line-height-normal: 200% !important;
+}
