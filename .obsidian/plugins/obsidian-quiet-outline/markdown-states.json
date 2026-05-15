@@ -1054,5 +1054,159 @@
       }
     },
     "expandedKeys": []
+  },
+  "01-基础理论/视觉基础模型/CLIP/多模态模型CLIP原理与图片分类，文字搜索图像实战演练.md": {
+    "scroll": 525.4348291704872,
+    "cursor": {
+      "from": {
+        "line": 13,
+        "ch": 0
+      },
+      "to": {
+        "line": 13,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "01-基础理论/强化学习.md": {
+    "scroll": 9.6352488094086,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "01-基础理论/机器人运动学.md": {
+    "scroll": 66.9361460212468,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "02-VLA/模仿学习.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "02-VLA/ACT.md": {
+    "scroll": 11.821644241286593,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 5
+      },
+      "to": {
+        "line": 2,
+        "ch": 5
+      }
+    },
+    "expandedKeys": []
+  },
+  "01-基础理论/Transformer与注意力/图解Transformer.md": {
+    "scroll": 206.09409309911624,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 0
+      },
+      "to": {
+        "line": 12,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "01-基础理论/Transformer与注意力/位置编码与归一化.md": {
+    "scroll": 54.24568045308167,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "00-入口/🏠-总览.md": {
+    "scroll": 5.888770678999801,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "02-VLA/VLA方向综述.md": {
+    "scroll": 244.74660195771847,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "03-Affordance/论文精读/3DAffordance/LASO/LASO.md": {
+    "scroll": 315.66312704462814,
+    "cursor": {
+      "from": {
+        "line": 15,
+        "ch": 0
+      },
+      "to": {
+        "line": 15,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "20_Research/Papers/Affordance/3DAffordSplat_Efficient_Affordance_Reasoning/3DAffordSplat_Efficient_Affordance_Reasoning.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 329,
+        "ch": 0
+      },
+      "to": {
+        "line": 329,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }

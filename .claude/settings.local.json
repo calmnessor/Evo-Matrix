@@ -53,7 +53,22 @@
       "Bash(tar -xzf 2506.09284.tar.gz)",
       "Bash(ls sec/ sections/ fig/ figures/)",
       "Bash(python3 *)",
-      "Bash(python *)"
+      "Bash(python *)",
+      "Bash(mkdir -p /tmp/paper_analysis2)",
+      "Bash(curl -s \"https://arxiv.org/abs/1803.10122\" -o /tmp/paper_analysis2/arxiv_page.html)",
+      "Bash(curl -L -o paper.pdf \"https://arxiv.org/pdf/1803.10122\")",
+      "Bash(curl -L -o source.tar.gz \"https://arxiv.org/e-print/1803.10122\")",
+      "Bash(tar -xzf source.tar.gz)",
+      "Bash(ls *.tex)",
+      "Bash(ls -d */)",
+      "Bash(ls fig*)",
+      "Bash(ls *.png)",
+      "Bash(mkdir -p E:/Obsidian/Evo-Matrix/20_Research/Papers/世界模型/World_Models/images)",
+      "Bash(cp /tmp/paper_analysis2/svg/world_model_overview.pdf E:/Obsidian/Evo-Matrix/20_Research/Papers/世界模型/World_Models/images/)",
+      "Bash(cp /tmp/paper_analysis2/svg/vae.pdf E:/Obsidian/Evo-Matrix/20_Research/Papers/世界模型/World_Models/images/)",
+      "Bash(cp /tmp/paper_analysis2/svg/mdn_rnn_new.pdf E:/Obsidian/Evo-Matrix/20_Research/Papers/世界模型/World_Models/images/)",
+      "Bash(cp /tmp/paper_analysis2/svg/world_model_schematic.pdf E:/Obsidian/Evo-Matrix/20_Research/Papers/世界模型/World_Models/images/)",
+      "Bash(/d/Anaconda/anaconda/python *)"
     ]
   }
 }

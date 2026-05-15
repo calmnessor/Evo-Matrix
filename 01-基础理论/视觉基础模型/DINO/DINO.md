@@ -8,8 +8,6 @@ tag:
   - 已发布
 footer: 技术共建，知识共享
 date: 2025-08-17
-author:
-  - BinaryOracle
 ---
 
 `Emerging Properties in Self-Supervised Vision Transformers 论文解读` 

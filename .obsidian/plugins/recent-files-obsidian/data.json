@@ -1,6 +1,50 @@
 {
   "recentFiles": [
     {
+      "basename": "3DAffordSplat_Efficient_Affordance_Reasoning",
+      "path": "20_Research/Papers/Affordance/3DAffordSplat_Efficient_Affordance_Reasoning/3DAffordSplat_Efficient_Affordance_Reasoning.md"
+    },
+    {
+      "basename": "LASO",
+      "path": "03-Affordance/论文精读/3DAffordance/LASO/LASO.md"
+    },
+    {
+      "basename": "VLA方向综述",
+      "path": "02-VLA/VLA方向综述.md"
+    },
+    {
+      "basename": "🏠-总览",
+      "path": "00-入口/🏠-总览.md"
+    },
+    {
+      "basename": "机器人运动学",
+      "path": "01-基础理论/机器人运动学.md"
+    },
+    {
+      "basename": "位置编码与归一化",
+      "path": "01-基础理论/Transformer与注意力/位置编码与归一化.md"
+    },
+    {
+      "basename": "图解Transformer",
+      "path": "01-基础理论/Transformer与注意力/图解Transformer.md"
+    },
+    {
+      "basename": "ACT",
+      "path": "02-VLA/ACT.md"
+    },
+    {
+      "basename": "模仿学习",
+      "path": "02-VLA/模仿学习.md"
+    },
+    {
+      "basename": "强化学习",
+      "path": "01-基础理论/强化学习.md"
+    },
+    {
+      "basename": "多模态模型CLIP原理与图片分类，文字搜索图像实战演练",
+      "path": "01-基础理论/视觉基础模型/CLIP/多模态模型CLIP原理与图片分类，文字搜索图像实战演练.md"
+    },
+    {
       "basename": "30天拥有好声音",
       "path": "30天拥有好声音/30天拥有好声音.md"
     },
@@ -155,50 +199,6 @@
     {
       "basename": "A4-Agent",
       "path": "论文/A4-Agent.md"
-    },
-    {
-      "basename": "O³Afford",
-      "path": "论文/O³Afford.md"
-    },
-    {
-      "basename": "Grounding 3D Object Affordance",
-      "path": "论文/Grounding 3D Object Affordance.md"
-    },
-    {
-      "basename": "GaussianGrasper",
-      "path": "论文/GaussianGrasper.md"
-    },
-    {
-      "basename": "3D场景语义嵌入总结",
-      "path": "3D affordacne/3D场景语义嵌入总结.md"
-    },
-    {
-      "basename": "Dr.Splat运行",
-      "path": "3D affordacne/Dr.Splat运行.md"
-    },
-    {
-      "basename": "2026-02-28 周六",
-      "path": "1.日记文件/2026-02-28 周六.md"
-    },
-    {
-      "basename": "LERF论文笔记",
-      "path": "3D affordacne/LERF论文笔记.md"
-    },
-    {
-      "basename": "2026-02-20 周五",
-      "path": "1.日记文件/2026-02-20 周五.md"
-    },
-    {
-      "basename": "2026-02-14 周六",
-      "path": "1.日记文件/2026-02-14 周六.md"
-    },
-    {
-      "basename": "语义嵌入工作",
-      "path": "3D affordacne/语义嵌入工作.md"
-    },
-    {
-      "basename": "2026-02-13 周五",
-      "path": "1.日记文件/2026-02-13 周五.md"
     }
   ],
   "omittedPaths": [],

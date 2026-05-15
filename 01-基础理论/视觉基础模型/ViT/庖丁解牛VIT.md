@@ -8,8 +8,6 @@ tag:
 footer: 技术共建，知识共享
 date: 2025-05-25
 cover: assets/cover/VIT.png
-author:
-  - BinaryOracle
 ---
 
 `多模态模型VIT原理与图片分类实战演练` 
