@@ -117,30 +117,6 @@
 
 ---
 
-## 🔧 环境准备（Day 0 提前做）
-
-```bash
-# 1. 安装 Miniconda
-# 下载: https://docs.conda.io/en/latest/miniconda.html
-
-# 2. 创建环境
-conda create -n vla python=3.10 -y
-conda activate vla
-
-# 3. 核心依赖
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
-pip install transformers datasets accelerate peft
-pip install numpy matplotlib jupyter tqdm
-pip install gymnasium mujoco robosuite  # 仿真环境
-
-# 4. 克隆关键项目
-git clone https://github.com/openvla/openvla
-git clone https://github.com/tonyzhaozh/act
-git clone https://github.com/google-research/robotics_transformer
-```
-
----
-
 **开始学习吧！从 [[01-速通阶段/Day01-Python与PyTorch基础|Day 1 — Python 与 PyTorch 基础]] 出发！** 🚀
 
 ---
@@ -168,7 +144,7 @@ git clone https://github.com/google-research/robotics_transformer
 |---------|------------|
 | Day 8 (RT-1/RT-2) → | [[../../02-VLA/论文精读/pi系列/|π 系列论文]] |
 | Day 10 (扩散策略) → | [[../../01-基础理论/扩散模型基础/条件扩散与Classifier-Free\|条件扩散]] |
-| 第二阶段 (先进VLA) → | [[../../02-VLA/论文精读/|VLA 论文精读目录]]（22+ 篇已分析论文） |
+| 第二阶段 (先进VLA) → | [[../../02-VLA/论文精读/|VLA 论文精读目录]]（25 篇已分析论文） |
 | 框架优化 → | [[../../02-VLA/论文精读/框架与优化/|框架与优化模块]]（χ₀ 等后训练优化方法） |
 
 ### 项目代码模板
