@@ -329,6 +329,66 @@
       "analyzed": true,
       "note_path": "20_Research/Papers/VLA_Embodied/KAI0/KAI0.md",
       "year": 2026
+    },
+    "ctrl_world_2510.10125": {
+      "id": "ctrl_world_2510.10125",
+      "title": "Ctrl-World: A Controllable Generative World Model for Robot Manipulation",
+      "arxiv_id": "2510.10125",
+      "domain": "世界模型",
+      "quality_score": 7.8,
+      "tags": [
+        "World-Model",
+        "VLA",
+        "Video-Diffusion",
+        "Policy-Evaluation",
+        "Robot-Manipulation",
+        "Multi-View",
+        "Action-Conditioned"
+      ],
+      "analyzed": true,
+      "note_path": "20_Research/Papers/世界模型/Ctrl-World_A_Controllable_Generative_World_Model_for_Robot_Manipulation/Ctrl-World_A_Controllable_Generative_World_Model_for_Robot_Manipulation.md",
+      "year": 2025
+    },
+    "world_models_1803.10122": {
+      "id": "world_models_1803.10122",
+      "title": "World Models",
+      "arxiv_id": "1803.10122",
+      "domain": "世界模型",
+      "quality_score": 8.5,
+      "tags": [
+        "World-Model",
+        "VAE",
+        "MDN-RNN",
+        "Evolution-Strategies",
+        "Model-Based-RL",
+        "Dreamer",
+        "Latent-Space",
+        "CMA-ES"
+      ],
+      "analyzed": true,
+      "note_path": "20_Research/Papers/世界模型/World_Models/World_Models.md",
+      "year": 2018
+    },
+    "omnimanip_2501.03841": {
+      "id": "omnimanip_2501.03841",
+      "title": "OmniManip: Towards General Robotic Manipulation via Object-Centric Interaction Primitives as Spatial Constraints",
+      "arxiv_id": "2501.03841",
+      "domain": "VLA",
+      "quality_score": 8.5,
+      "tags": [
+        "VLA",
+        "Robotic-Manipulation",
+        "Object-Centric",
+        "Interaction-Primitives",
+        "Zero-Shot",
+        "VLM",
+        "Dual-Closed-Loop",
+        "Self-Correction",
+        "ICLR-2026"
+      ],
+      "analyzed": true,
+      "note_path": "20_Research/Papers/VLA/OmniManip/OmniManip.md",
+      "year": 2025
     }
   },
   "edges": [
@@ -919,7 +979,67 @@
       "target": "fast_2501.09747",
       "type": "uses",
       "weight": 0.6
+    },
+    {
+      "source": "ctrl_world_2510.10125",
+      "target": "pi0_2410.24164",
+      "type": "uses",
+      "weight": 0.85
+    },
+    {
+      "source": "ctrl_world_2510.10125",
+      "target": "pi0.5_2504.16054",
+      "type": "uses",
+      "weight": 0.9
+    },
+    {
+      "source": "ctrl_world_2510.10125",
+      "target": "pi0.6_recap_2511.14759",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "world_models_1803.10122",
+      "target": "ctrl_world_2510.10125",
+      "type": "founds",
+      "weight": 0.95
+    },
+    {
+      "source": "omnimanip_2501.03841",
+      "target": "rekep_2409.01652",
+      "type": "improves",
+      "weight": 0.85
+    },
+    {
+      "source": "omnimanip_2501.03841",
+      "target": "uad_2506.09284",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "omnimanip_2501.03841",
+      "target": "3daffordsplat_2504.11218",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "omnimanip_2501.03841",
+      "target": "dinov2_2304.07193",
+      "type": "uses",
+      "weight": 0.4
+    },
+    {
+      "source": "omnimanip_2501.03841",
+      "target": "anygrasp_2212.08333",
+      "type": "uses",
+      "weight": 0.6
+    },
+    {
+      "source": "omnimanip_2501.03841",
+      "target": "hi_robot_2502.19417",
+      "type": "related",
+      "weight": 0.45
     }
   ],
-  "last_updated": "2026-05-13"
+  "last_updated": "2026-05-15"
 }

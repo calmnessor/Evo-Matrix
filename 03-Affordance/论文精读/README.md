@@ -21,13 +21,14 @@
 | 1 | [[3DAffordSplat]] | 2025.04 | 首个 3DGS affordance 数据集 + AffordSplatNet（CVPR 2025） |
 | 2 | [[SeqAffordSplat]] | 2025.07 | 场景级序列化 affordance 推理，LLM 规划 + 3DGS 执行（AAAI 2026） |
 
-### 关键点约束（结构化 Affordance）
+### 关键点约束（结构化 Affordance → VLA）
 
-将 affordance 表示为关系关键点约束，通过优化求解器生成动作。
+将 affordance 表示为空间约束，通过 VLM + 优化求解器生成动作，打通"感知→约束→执行"全链路。
 
-| # | 论文 | 日期 | 核心贡献 |
-|---|------|------|----------|
-| 1 | [[ReKep]] | 2024.09 | 关系关键点约束 → 结构化 affordance 表示（CoRL 2024） |
+| # | 论文 | 日期 | 会议 | 核心贡献 |
+|---|------|------|------|----------|
+| 1 | [[ReKep]] | 2024.09 | CoRL 2024 | 关系关键点约束 → 结构化 affordance 表示 |
+| 2 | [[关键点约束/OmniManip/OmniManip\|OmniManip]] | 2025.01 | ICLR 2026 | 物体中心交互原语 + 双闭环 VLA，零样本泛化 |
 
 ## 待组织论文
 
