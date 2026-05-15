@@ -38,7 +38,7 @@ status: analyzed
 
 ### 英文摘要
 Understanding fine-grained object affordances is imperative for robots to manipulate objects in unstructured environments given open-ended task instructions. However, existing methods of visual affordance predictions often rely on manually annotated data or conditions only on a predefined set of tasks. We introduce UAD, a method for distilling affordance knowledge from foundation models into a task-conditioned affordance model without any manual annotations. By leveraging the complementary strengths of large vision models and vision-language models, UAD automatically annotates a large-scale dataset with detailed <instruction, visual affordance> pairs. Training only a lightweight task-conditioned decoder atop frozen features, UAD exhibits notable generalization to in-the-wild robotic scenes and to various human activities, despite only being trained on rendered objects in simulation. Using affordance provided by UAD as the observation space, we show an imitation learning policy that demonstrates promising generalization to unseen object instances, object categories, and even variations in task instructions after training on as few as 10 demonstrations.
-
+<mark style="background: #FF5582A6;"></mark>
 ### 中文翻译
 理解物体的细粒度 affordance 是机器人在非结构化环境中根据开放式任务指令进行操作的必要能力。然而，现有 affordance 预测方法通常依赖人工标注数据或仅针对预定义任务集。本文提出 UAD，一种从基础模型中蒸馏 affordance 知识到任务条件化的 affordance 模型的方法，完全不依赖人工标注。利用大视觉模型和视觉语言模型的互补优势，UAD 自动标注大规模 <指令, 视觉 affordance> 数据集。仅在冻结特征之上训练轻量任务条件化解码器，UAD 展现出对野外机器人场景和各种人类活动的显著泛化能力——尽管仅在仿真中渲染的单物体上训练。将 UAD 的 affordance 作为观测空间，我们展示了一个模仿学习策略，仅使用 10 个演示即可泛化到未见物体实例、类别甚至任务指令变化。
 
