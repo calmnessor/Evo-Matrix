@@ -180,6 +180,4 @@ class OnlineAdapter:
 
 ## 关联笔记
 - [[../07-仿真与工具/仿真数据与Domain Randomization|Domain Randomization 详解]] — DR 原理与实现
-- [[传感器标定与外参校准]] — Gap 诊断的关键前提
-- [[常见问题排查]] — 真机失败的具体排查方法
 - [[遥操作与数据收集]] — 真机数据回传改进模型

@@ -326,6 +326,5 @@ VLA 延迟预算 (目标: <100ms):
 
 ## 关联笔记
 - [[仿真与工具索引]] — 回到工具索引
-- [[Docker与可重复实验]] — ROS 2 环境封装
 - [[Isaac Sim与Isaac Lab]] — Isaac Sim 的 ROS 2 Bridge
 - [[../../02-VLA/VLA模型总览]] — VLA 的真机部署

@@ -51,8 +51,8 @@ Evo-Matrix/
 ├── 04-Grasp/              ← Grasp 方向：方向综述、论文精读、杰出实验室
 ├── 05-生成式模型/          ← 3D 重建与生成：方向综述、论文精读、杰出实验室
 ├── 06-世界模型/            ← 世界模型方向：方向综述、论文精读、杰出实验室
-├── 07-真机部署/            ← 硬件选型、传感器标定、模型推理优化、安全机制
-├── 08-仿真与工具/          ← MuJoCo、Isaac Sim、HuggingFace、Blender、数据集索引
+├── 07-真机部署/            ← 硬件选型、遥操作、Sim-to-Real 部署策略
+├── 08-仿真与工具/          ← MuJoCo、Isaac Sim、HuggingFace、ROS2、数据集索引
 ├── 09-科研工具/            ← Claude Code、LaTeX、Git、Python 环境、文献检索
 ├── 10_Daily/              ← 每日论文推荐
 ├── 20_Research/           ← PaperGraph 知识图谱与论文结构化存储

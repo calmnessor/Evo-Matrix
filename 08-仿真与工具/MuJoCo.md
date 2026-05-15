@@ -542,7 +542,6 @@ def check_collision(model, data, body1_name, body2_name):
 - [ ] 我在 MuJoCo 中搭建过自定义机器人仿真场景
 
 ## 关联笔记
-- [[Blender与3D建模]] — 创建 mesh 导入 MuJoCo
 - [[PyBullet与Gymnasium]] — 轻量替代方案
 - [[Isaac Sim与Isaac Lab]] — GPU 加速替代
 - [[rosbosuite与模仿学习框架]] — 基于 MuJoCo 的 benchmark

@@ -280,6 +280,5 @@ Isaac Sim 中域随机化训练
 ## 关联笔记
 - [[仿真与工具索引]] — 回到工具索引
 - [[MuJoCo]] — 对比：CPU 物理引擎
-- [[Blender与3D建模]] — USD 资产创建
 - [[仿真数据与Domain Randomization]] — Sim2Real 关键技术
 - [[../../01-基础理论/强化学习]] — RL 训练理论基础

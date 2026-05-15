@@ -294,5 +294,4 @@ def evaluate_sim2real_gap(sim_env, real_robot, policy, num_trials=50):
 - [[仿真与工具索引]] — 回到工具索引
 - [[MuJoCo]] — MuJoCo 中的 DR 实现
 - [[Isaac Sim与Isaac Lab]] — Isaac Sim 的 DR 工具
-- [[Blender与3D建模]] — 合成数据生成
 - [[../../01-基础理论/强化学习]] — Sim2Real 在 RL 中的应用
