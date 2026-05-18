@@ -1196,7 +1196,7 @@
     "expandedKeys": []
   },
   "20_Research/Papers/Affordance/3DAffordSplat_Efficient_Affordance_Reasoning/3DAffordSplat_Efficient_Affordance_Reasoning.md": {
-    "scroll": 0,
+    "scroll": 38.56185430295936,
     "cursor": {
       "from": {
         "line": 329,
@@ -1204,6 +1204,34 @@
       },
       "to": {
         "line": 329,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "06-世界模型/世界模型方向综述.md": {
+    "scroll": 177.54865015656188,
+    "cursor": {
+      "from": {
+        "line": 191,
+        "ch": 12
+      },
+      "to": {
+        "line": 191,
+        "ch": 9
+      }
+    },
+    "expandedKeys": []
+  },
+  "01-基础理论/视觉基础模型/DINO/DINO.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 0
+      },
+      "to": {
+        "line": 11,
         "ch": 0
       }
     },

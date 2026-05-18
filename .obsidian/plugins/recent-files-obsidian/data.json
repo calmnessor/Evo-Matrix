@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "世界模型方向综述",
+      "path": "06-世界模型/世界模型方向综述.md"
+    },
+    {
+      "basename": "DINO",
+      "path": "01-基础理论/视觉基础模型/DINO/DINO.md"
+    },
+    {
       "basename": "3DAffordSplat_Efficient_Affordance_Reasoning",
       "path": "20_Research/Papers/Affordance/3DAffordSplat_Efficient_Affordance_Reasoning/3DAffordSplat_Efficient_Affordance_Reasoning.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "打开口腔",
       "path": "30天拥有好声音/打开口腔.md"
-    },
-    {
-      "basename": "2026-03-01 周日",
-      "path": "1.日记文件/2026-03-01 周日.md"
-    },
-    {
-      "basename": "A4-Agent",
-      "path": "论文/A4-Agent.md"
     }
   ],
   "omittedPaths": [],
