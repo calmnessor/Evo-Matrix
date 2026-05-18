@@ -389,6 +389,28 @@
       "analyzed": true,
       "note_path": "20_Research/Papers/VLA/OmniManip/OmniManip.md",
       "year": 2025
+    },
+    "vggt_omega_2605.15195": {
+      "id": "vggt_omega_2605.15195",
+      "title": "VGGT-Ω: Scaling Feed-Forward Reconstruction Models",
+      "arxiv_id": "2605.15195",
+      "domain": "多模态技术",
+      "quality_score": 9.2,
+      "tags": [
+        "3D-Reconstruction",
+        "Feed-Forward-Reconstruction",
+        "Register-Attention",
+        "Dynamic-Scenes",
+        "Self-Supervised-Learning",
+        "VLA",
+        "Language-Alignment",
+        "VGGT",
+        "DINOv3",
+        "CVPR2026"
+      ],
+      "analyzed": true,
+      "note_path": "20_Research/Papers/多模态技术/VGGT-Omega/VGGT-Omega.md",
+      "year": 2026
     }
   },
   "edges": [
@@ -1041,5 +1063,5 @@
       "weight": 0.45
     }
   ],
-  "last_updated": "2026-05-15"
+  "last_updated": "2026-05-18"
 }
