@@ -411,6 +411,28 @@
       "analyzed": true,
       "note_path": "20_Research/Papers/多模态技术/VGGT-Omega/VGGT-Omega.md",
       "year": 2026
+    },
+    "affostruction_2601.09211": {
+      "id": "affostruction_2601.09211",
+      "title": "Affostruction: 3D Affordance Grounding with Generative Reconstruction",
+      "arxiv_id": "2601.09211",
+      "domain": "Affordance_Prediction",
+      "quality_score": 8.5,
+      "tags": [
+        "Affordance-Prediction",
+        "3D-Affordance-Grounding",
+        "Generative-Reconstruction",
+        "Flow-Matching",
+        "RGBD",
+        "Multi-View",
+        "Active-View-Selection",
+        "TRELLIS",
+        "Open-Vocabulary",
+        "CVPR2026"
+      ],
+      "analyzed": true,
+      "note_path": "20_Research/Papers/Affordance_Prediction/Affostruction/Affostruction.md",
+      "year": 2026
     }
   },
   "edges": [
@@ -1061,7 +1083,25 @@
       "target": "hi_robot_2502.19417",
       "type": "related",
       "weight": 0.45
+    },
+    {
+      "source": "affostruction_2601.09211",
+      "target": "3daffordsplat_2504.11218",
+      "type": "related",
+      "weight": 0.6
+    },
+    {
+      "source": "affostruction_2601.09211",
+      "target": "seqaffordsplat_2507.23772",
+      "type": "related",
+      "weight": 0.6
+    },
+    {
+      "source": "affostruction_2601.09211",
+      "target": "uad_2506.09284",
+      "type": "related",
+      "weight": 0.6
     }
   ],
-  "last_updated": "2026-05-18"
+  "last_updated": "2026-05-20"
 }
