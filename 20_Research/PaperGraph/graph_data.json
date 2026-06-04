@@ -433,6 +433,26 @@
       "analyzed": true,
       "note_path": "20_Research/Papers/Affordance_Prediction/Affostruction/Affostruction.md",
       "year": 2026
+    },
+    "blip2_2301.12597": {
+      "id": "blip2_2301.12597",
+      "title": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+      "arxiv_id": "2301.12597",
+      "domain": "多模态技术",
+      "quality_score": 8.8,
+      "tags": [
+        "Vision-Language",
+        "Q-Former",
+        "LLM",
+        "Frozen-Models",
+        "BLIP",
+        "Image-Captioning",
+        "VQA",
+        "ICML-2023"
+      ],
+      "analyzed": true,
+      "note_path": "20_Research/Papers/多模态技术/BLIP-2_Bootstrapping_Language-Image_Pre-training_with_Frozen_Image_Encoders_and_LLMs/BLIP-2_Bootstrapping_Language-Image_Pre-training_with_Frozen_Image_Encoders_and_LLMs.md",
+      "year": 2023
     }
   },
   "edges": [
@@ -1101,7 +1121,55 @@
       "target": "uad_2506.09284",
       "type": "related",
       "weight": 0.6
+    },
+    {
+      "source": "blip2_2301.12597",
+      "target": "clip",
+      "type": "uses",
+      "weight": 0.85
+    },
+    {
+      "source": "blip2_2301.12597",
+      "target": "blip",
+      "type": "extends",
+      "weight": 0.9
+    },
+    {
+      "source": "blip2_2301.12597",
+      "target": "flamingo",
+      "type": "improves",
+      "weight": 0.85
+    },
+    {
+      "source": "blip2_2301.12597",
+      "target": "opt",
+      "type": "uses",
+      "weight": 0.7
+    },
+    {
+      "source": "blip2_2301.12597",
+      "target": "flant5",
+      "type": "uses",
+      "weight": 0.7
+    },
+    {
+      "source": "blip2_2301.12597",
+      "target": "beit3",
+      "type": "compares",
+      "weight": 0.5
+    },
+    {
+      "source": "blip2_2301.12597",
+      "target": "dinov2_2304.07193",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "blip2_2301.12597",
+      "target": "vggt_omega_2605.15195",
+      "type": "related",
+      "weight": 0.3
     }
   ],
-  "last_updated": "2026-05-20"
+  "last_updated": "2026-06-04"
 }
